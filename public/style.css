@@ -64,3 +64,66 @@ body{
     border: 1px solid #111;
     margin-top: 5px;
 }
+.join-screen .form label{
+    color: #222;
+    font-size: 10px;
+}
+.join-screen .form input{
+    display: block;
+    margin: 10px 0px;
+    width: 100%;
+    max-width: 200px;
+    border: 1px solid #111;
+    color: #111;
+    font-size: 20px;
+    padding: 10px;
+}
+.fs-screen{
+    padding: 20px;
+}
+.fs-screen .file-input{
+    width: 100%;
+    border: 2px dashed #555;
+}
+.fs-screen .file-input label{
+    display: block;
+    width: 100%;
+    padding: 40px 50px;
+    text-align: center;
+    font-size: 18px;
+}
+.fs-screen .file-input input{
+    display: none;
+}
+.fs-screen .files-list{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.fs-screen .files-list .title{
+    width: 100%;
+    font-size: 18px;
+    color: #555;
+    margin-bottom:20px ;
+}
+.fs-screen .files-list .item{
+    width: 33.33%;
+    min-width: 200px;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.05);
+}
+
+.fs-screen .files-list .item .progress{
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    color: #222;
+}
+.fs-screen .files-list .item .filename{
+        font-size: 16px;
+        padding: 5px;
+        border-top: 1px solid #eee;
+}
