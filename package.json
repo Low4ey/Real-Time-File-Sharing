@@ -1,0 +1,15 @@
+{
+  "name": "real-time-file-sharing",
+  "version": "1.0.0",
+  "description": "Real Time file sharing....:)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ajeet Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.1"
+  }
+}
