@@ -1,15 +1,15 @@
 {
-  "name": "real-time-file-sharing",
+  "name": "fsshare",
   "version": "1.0.0",
-  "description": "Real Time file sharing....:)",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ajeet Kumar",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1",
-    "socket.io": "^4.5.1"
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
   }
 }
